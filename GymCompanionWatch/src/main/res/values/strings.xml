@@ -1,0 +1,143 @@
+<!--
+  Copyright 2016 The Android Open Source Project
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+
+  GymCompanion0.0.2
+-->
+<resources>
+    <string name="app_name">GymCompanionnullpunktnullpunktzwei</string>
+
+    <!--
+    Reference name for each planet's information array.
+    -->
+
+    <string-array name="workout_exercises_push">
+        <item>kniebeugen</item>
+        <item>bankdruecken</item>
+        <item>schraegbankdruecken</item>
+        <item>flys</item>
+        <item>schulterdruecken</item>
+        <item>seitheben</item>
+        <item>trizepsdruecken</item>
+        <item>bauch</item>
+        <item>laufen</item>
+    </string-array>
+
+    <!--
+    Keys for planet array information below:
+        "Exercise Name", former "Planet Name",
+        "", former "Navigation icon",
+        "", former "Drawable for planet"
+        "Number of Sets", former "Number of Moons",
+        "Number of Repetitions", former "Volume"
+        "Weights", former "Surface Area"
+        "Where Or What", former -
+
+        <item>3 Wiederholungen</item>
+        <item>12</item>
+        <item>20</item>
+        <item>Langhantel</item>
+
+    -->
+
+    <string-array name="kniebeugen">
+        <item>Kniebeugen</item>
+        <item>ic_m_white_48dp</item>
+        <item>kniebeugen</item>
+        <item>platzhalter</item>
+        <item>platzhalter</item>
+        <item>platzhalter</item>
+        <item>platzhalter</item>
+    </string-array>
+
+    <string-array name="bankdruecken">
+        <item>Bankdruecken</item>
+        <item>ic_m_white_48dp</item>
+        <item>bankdruecken</item>
+        <item>platzhalter</item>
+        <item>platzhalter</item>
+        <item>platzhalter</item>
+        <item>platzhalter</item>
+    </string-array>
+
+    <string-array name="schraegbankdruecken">
+        <item>Schraegbankdruecken</item>
+        <item>ic_v_white_48dp</item>
+        <item>schraegbankdruecken</item>
+        <item>platzhalter</item>
+        <item>platzhalter</item>
+        <item>platzhalter</item>
+        <item>platzhalter</item>
+    </string-array>
+
+    <string-array name="flys">
+        <item>Flys</item>
+        <item>ic_e_white_48dp</item>
+        <item>flys</item>
+        <item>platzhalter</item>
+        <item>platzhalter</item>
+        <item>platzhalter</item>
+        <item>platzhalter</item>
+    </string-array>
+
+    <string-array name="schulterdruecken">
+        <item>Schulterdruecken</item>
+        <item>ic_m_white_48dp</item>
+        <item>schulterdruecken</item>
+        <item>platzhalter</item>
+        <item>platzhalter</item>
+        <item>platzhalter</item>
+        <item>platzhalter</item>
+    </string-array>
+
+    <string-array name="seitheben">
+        <item>Seitheben</item>
+        <item>ic_j_white_48dp</item>
+        <item>seitheben</item>
+        <item>platzhalter</item>
+        <item>platzhalter</item>
+        <item>platzhalter</item>
+        <item>platzhalter</item>
+    </string-array>
+
+    <string-array name="trizepsdruecken">
+        <item>Trizepsdruecken</item>
+        <item>ic_s_white_48dp</item>
+        <item>trizepsdruecken</item>
+        <item>platzhalter</item>
+        <item>platzhalter</item>
+        <item>platzhalter</item>
+        <item>platzhalter</item>
+    </string-array>
+
+    <string-array name="bauch">
+        <item>Bauch</item>
+        <item>ic_u_white_48dp</item>
+        <item>bauch</item>
+        <item>platzhalter</item>
+        <item>platzhalter</item>
+        <item>platzhalter</item>
+        <item>platzhalter</item>
+    </string-array>
+
+    <string-array name="laufen">
+        <item>Laufen</item>
+        <item>ic_n_white_48dp</item>
+        <item>laufen</item>
+        <item>platzhalter</item>
+        <item>platzhalter</item>
+        <item>platzhalter</item>
+        <item>platzhalter</item>
+    </string-array>
+</resources>
