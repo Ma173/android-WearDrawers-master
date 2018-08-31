@@ -32,7 +32,9 @@ import android.view.LayoutInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import java.util.ArrayList;
@@ -128,8 +130,11 @@ public class MainActivity extends FragmentActivity implements
                     String.valueOf(exerciseInformation[5]),   // Weight
                     exerciseInformation[6]    // Where or how to practice
             ));
-        }
 
+
+        }
+        //TEST
+        //((Button)findViewById(R.id.menu_exercise_name)).setText(mExercisesList.get(mSelectedPlanet).getName());
         return exercisesList;
     }
 
